@@ -1,6 +1,12 @@
 # Marvel Games Landing Page Clone
 
-A static HTML/CSS clone of a Marvel Games landing page.
+An immersive Marvel Games landing page clone built with responsive HTML5 and cinematic CSS3. This project was created as my first frontend clone and demonstrates layout, typography, and image-driven design.
+
+## Links
+
+- Original website: https://www.marvel.com/games
+- Live demo: [Add live demo URL here]
+- Local demo: Open `index.html` in your browser or serve the folder with a static server
 
 ## Project structure
 
@@ -20,11 +26,6 @@ A static HTML/CSS clone of a Marvel Games landing page.
 1. Open `index.html` in your browser.
 2. Review the layout and styling in `style.css`.
 
-## Links
-
-- Original website: https://www.marvel.com/games
-- Demo: Open `index.html` locally in your browser or serve the folder with a static file server.
-
 ## Notes
 
 - This was my first clone project.
@@ -32,3 +33,4 @@ A static HTML/CSS clone of a Marvel Games landing page.
 - Image assets are stored in the `imgs/` folder.
 - External fonts are loaded from Google Fonts.
 - Font Awesome is used for icon rendering.
+
