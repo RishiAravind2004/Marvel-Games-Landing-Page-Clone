@@ -5,7 +5,7 @@ An immersive Marvel Games landing page clone built with responsive HTML5 and cin
 ## Links 🔗
 
 - Original website: https://www.marvel.com/games
-- Live demo: [Add live demo URL here]
+- Live demo: https://rishiaravind2004.github.io/Marvel-Games-Landing-Page-Clone/
 - Local demo: Open `index.html` in your browser or serve the folder with a static server
 
 ## Screenshots 🖼️
