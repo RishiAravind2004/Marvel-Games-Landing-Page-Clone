@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Freeman", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+p{
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 0px;
+    font-size: small;
+    font-weight: 600;
+}
+
+small{
+    font-family: "Freeman", sans-serif;
+    color: gray;
+    letter-spacing: 0px;
+}
+
+button{
+    background: rgb(240, 40, 40);
+    color: white;
+
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+
+    transform: skew(-20deg);
+
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background: rgb(170, 15, 15);
+}
+/* body{
+    background-color: #202020;
+} */
+
+/* Nav Bar */
+#navbar{
+
+    /* Text */
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+
+    background-color: #202020;
+
+}
+
+#top-nav{
+    border-bottom: 0.5px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+#top-nav>div{
+    display: flex;
+    justify-items: center;
+}
+
+#top-nav>div>div{
+    padding-left: 25px;
+    padding-right: 25px;
+    align-content: center;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#top-nav>div>div>img{
+    height: 50px;
+    width: 100px;
+}
+
+#bottom-nav{
+    padding: 15px;
+}
+
+
+#bottom-nav>div>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 350px;
+    padding-right: 350px;
+    cursor: pointer;
+}
+
+.sideborder{
+    border-right: grey 0.5px solid;
+}
+
+
+/* Body Content */
+
+/* Welcoming */
+#welcome{
+    height: 380px;
+    background-color: #020204;
+
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+#welcome>img{
+    position: absolute;
+    z-index: 1;
+
+    height: 380px;
+    padding-left: 780px;
+    
+}
+
+
+#welcome>div{
+    position: absolute;
+    z-index: 2;
+
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 425px;
+}
+
+/* welcome overlay card */
+
+#overlaycard{
+    height: 300px;
+    width: 85%;
+    background-color: white;
+
+    position: relative;
+    left: 90px;
+    bottom: 65px;
+    z-index: 1;
+
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+
+}
+
+#overlaycard>div{
+    cursor: pointer;
+}
+
+#overlaycard>div>img{
+    width: 170px;
+    filter: drop-shadow(10px 0px 15px rgba(0,0,0,0.5));
+}
+
+#overlaycard>div:hover p{
+    color: rgb(240, 40, 40);
+}
+
+/* Games List */
+
+#gameslists{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+/* news */
+
+#latest-games-news-cards{
+    display: flex;
+    gap: 5px;
+}
+#latest-games-news-cards>div{
+    flex: 1;
+    cursor: pointer;
+}
+#latest-games-news-cards>div>img{
+    width: 300px;
+}
+
+#latest-games-news-cards>div:hover p{
+        color: rgb(240, 40, 40);
+}
+
+/* Page selection */
+#page-selection>ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#page-selection>ul>li{
+    flex: 1;
+    cursor: pointer;
+}
+
+#page-selection>ul>li:hover p{
+    color: rgb(240, 40, 40);
+}
+
+/* games list */
+
+#games-cards>div{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+#games-cards>div>div{
+    flex:1;
+}
+#games-cards>div>div>img{
+    height: 360px;
+    filter: drop-shadow(10px 0px 5px rgba(0,0,0,0.5));
+}
+
+#games-cards>div>div:hover{
+    color: rgb(240, 40, 40);
+}
+
+/* Footer */
+
+#footer{
+    color: white;
+    background-color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#footer-top{
+    display: flex;
+}
+
+#footer-top>div>img{
+    height: 390px;
+}
+
+#footer-top>#content{
+    font-weight: 100;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer-mid{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px 60px;
+    border: 0.5px solid grey;
+}
+
+#footer-mid>img{
+    height: 50px;
+}
+
+#footer-bottom{
+    color: white;
+    background-color: #151515;
+    padding: 50px;
+    display: flex;
+}
+
+#footer-bottom p{
+    font-weight: 300;
+    font-size: small;
+    letter-spacing: 1.5px;
+}
+
+#footer-bottom>div{
+    flex: 1;
+}
+
+#footer-bottom>div>img{
+    height: 125px;
+}
+
+#footer-bottom>div>ul{
+    list-style: none;
+}
+
+#footer-bottom>div>ul>li>p{
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#footer-bottom>div>ul>li:hover p{
+    color: grey;
+}
+
+.subfooter-context{
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    flex: 1;
+    cursor: pointer;
+}
+.subfooter-context>div>img{
+    height: 40px;
+}
+
+#follow-links-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#follow-links-grid>div>i{
+    color: grey;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#follow-links-grid>div>i:hover{
+    color: white;
+}
+
+#deep-footer{
+    color: white;
+    background-color: #151515;
+    cursor: pointer;
+}
+
+#deep-footer>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 275px;
+    padding-right: 275px;
+}
+#deep-footer>ul>li>p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: grey;
+    cursor: pointer;
+}
+
+#deep-footer>ul>li:hover p{
+    color: white;
+}
