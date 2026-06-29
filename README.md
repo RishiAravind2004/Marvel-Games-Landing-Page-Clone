@@ -10,7 +10,7 @@ An immersive Marvel Games landing page clone built with responsive HTML5 and cin
 
 ## Screenshots 🖼️
 
-![Image 1](./screenshorts/image-1.jpg)
+![Image 1](screenshorts/image-1.png)
 
 ![Featured game cards](./imgs/cards/marvelswolverine_card1.jpg)
 
